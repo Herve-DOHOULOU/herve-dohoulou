@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#span-1{
+    color: black;
+    font-size: 50px;
+    margin-left: 25px;
+}
+
+#span-2 a{
+    color: #00FFFF;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#premier_bloc{
+    background-color: #2F3D44;
+}
+
+ul{
+    margin: 0px;
+text-align: right;
+}
+
+
+
+li{
+list-style-type: none;
+display: inline-block;
+font-size: 25px;
+padding: 0%;
+margin: 0px;
+color: white;
+padding-right: 15px;
+}
+
+#contenu_1 p{
+    margin: 0px;
+}
+
+#hello{
+font-size: 50px;
+color: white;
+padding-left: 20px;
+}
+
+#name{
+    font-size: 70px;
+    color: white;
+    padding-left: 60px;
+}
+
+#job{
+    font-size: 60px;
+    color: #00FFFF;
+    padding-left: 80px;
+}
+
+#statut{
+    font-size: 30px;
+    color: white;
+    padding-left: 80px;
+}
+
+#first-button{
+ margin-left: 50px;
+    background-color: black;
+    color: #00FFFF;
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 6px;
+    border-color:#00FFFF ;
+    font-size: 30px;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+#deuxième_bloc{
+    background-color: #13A6A6;
+}
+
+#apropos{
+text-align: center;
+font-size: 50px;
+}
+
+#herve{
+    font-size: 50px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fonction{
+    font-size: 25px;
+    margin:0px;
+    padding: 0px;
+    margin-left: 15px;
+}

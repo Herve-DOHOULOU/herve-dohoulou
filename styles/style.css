@@ -1,0 +1,488 @@
+body {
+   font-family: "candara";
+   margin: 0px;
+   padding: 0px;
+}
+
+header {
+    background-color:orange;
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+}
+
+#one{
+    font-size: 60px;
+}
+
+#two a{
+    font-size: 50px;
+    text-decoration: none;
+    color: #00FFFF;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.menu li{
+    display:inline-block;
+    padding: 1em;
+    font-size: 2em;
+}
+
+nav{
+    flex:1;
+}
+
+
+
+header{
+    display: flex;
+}
+
+#presentation {
+    background-color: #111;
+    color: white;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+#presentation p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#presentation-hello {
+    font-size: 40px;
+}
+
+#presentation-name {
+    font-size: 80px;
+}
+
+#presentation-iam {
+    font-size: 50px;
+}
+
+#presentation-developer {
+    font-size: 50px;
+    
+
+}
+
+#presentation-frontend {
+    font-size: 20px;
+}
+
+#presentation button {
+    border: 1px solid orange;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 6px;
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    color: orange;
+    font-size: 20px;
+}
+
+/* ABOUT */
+
+#about{
+    background-color: rgb(32, 190, 218);
+    height: 700px;  
+    display: flex;
+    padding-right: 8em;
+    padding-top: 4em;
+}
+    
+#about img{
+    border: 1px solid grey;
+    border-radius: 50px; 
+    width: 400px;
+    display: block;
+    box-shadow: 6px 6px 6px 6px grey;
+}
+
+#apropos{
+    font-size: 3em;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#name{
+    font-size: 2em;
+    padding-left: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#job{
+    font-size: 2em;
+    padding-left: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#commentaire{
+    padding-left: 2em;
+    font-size: 2em;
+    color: white;
+}
+
+#cv{
+    margin-left: 100px;
+    margin-top: 2.6em;
+    padding-bottom: 1.6em;
+    padding-top: 1em;
+    border-radius: 6px;
+    background-color: black;
+    color: orange;
+    border: 1px solid orange;
+
+}
+
+/* FORMATIONS */
+
+#formations {
+    background-color: #E5FFFE;
+    padding-left: 50px;
+    padding-right:50px ;
+    padding-bottom: 30px;
+}
+
+#formations h2 {
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+}
+
+#formations-contenu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.formations-produit {
+    height: 400px;
+    background-color: black;
+    border-radius: 2em;  
+    width: calc(33.33% - 13.33px);
+    text-align: center;
+    margin-top: 2em;
+}
+
+.formations-produit img {
+    height: 100px;
+    padding-top: 30px;
+}
+
+.formations-produit h3{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.formations-produit p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* COMPETENCES */
+
+ #competences{
+    background-color: white;
+    padding: 30px 50px;
+ }
+
+ #skills{
+    display: flex;
+ }
+
+ #skills-presentation{
+    flex: 1;
+ }
+
+ #skills-matiere{
+   flex: 1;
+   padding-left: 50px; 
+}
+
+ .skill{
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    padding-top: 1em;
+    margin-left: 70px;
+    padding-bottom: 2em;
+ }
+
+ .skil{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    margin-left: 70px;
+ }
+
+ .commentaire {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    padding-top: 2em;
+    margin-left: 70px;
+ }
+
+.competence p {
+   margin: 0px;
+}
+
+.competence div {
+   border: 1px solid red ;
+   height: 10px;
+   background-color: orange;
+   border-radius: 6px;
+   margin-bottom: 20px;
+}
+
+#competence-html {
+   width: 50%;
+}
+
+#competence-boostrap {
+   width: 40%;
+}
+
+#competence-wordpress {
+   width: 30%;
+}
+
+#competence-git {
+   width: 50%;
+}
+
+#competence-figma {
+   width: 100%;
+}
+
+#competence-photoshop {
+   width: 80%;
+}
+ /* EXPERIENCES */
+
+ #EXPERIENCES{
+    background-color: #13a6a6;
+    padding: 30px 50px;
+ }
+
+ .partie-experience {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+ }
+
+ #images-experiences{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+
+ }
+
+ .pictures{
+   width: calc(33.33% - 13.33px);
+ }
+
+ .pictures img{
+    height: 250px;
+    border: 6px solid orange;
+    width: 100%;
+    border-radius: 6px;
+    display: block;
+ }
+
+ /* CONTACT */
+
+ #Contactez-moi{
+    background-color:white;
+    height: 800px;
+ }
+
+    #bloc{
+        display: flex;
+    }
+
+    #bloc-1{
+        flex: 1;
+    }
+
+    #bloc-2{
+        flex: 1;
+        padding-right: 60px;
+    }
+
+ #call-me{
+    font-size: 50px;
+    margin-left: 30px;
+ }
+
+ .my-name{
+    margin-left: 30px;
+    font-size: 20px;
+ }
+
+ #send-mail{
+    font-size: 30px;
+    margin-left: 25px;
+ }
+
+ .partie-nom{
+    font-size: 25px;
+ }
+
+ .caractere{
+        height: 50px;
+        width: 100%;
+        border: 2px solid orange;
+        border-radius: 6px;
+ }
+
+ .mail{
+    height: 50px;
+    width:320px ;
+    margin-left: 50px;
+ }
+
+ #champ-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ #partie-nom{
+     width: 50%; 
+     /* background-color: black; */
+ }
+
+ .partie-nom div{
+    padding: 6px;
+ }
+
+ #prenom{
+    width: 50%;
+ }
+
+ #partie-mail{
+    width: 50%;
+ }
+
+ #partie-telephone{
+    width: 50%;
+ }
+
+ #partie-message{
+    width: 100%;
+ }
+
+ #partie-message textarea{
+    width: 100%;
+    border: 2px solid orange;
+ }
+
+ .button{
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    color: black;
+    border: 2px solid orange;
+    background-color:white;
+    border-radius: 6px;
+ }
+
+ #footer{   
+    background-color: black;
+    height: 150px;
+ }
+
+ .pied-de-page{
+    padding: 60px;
+    font-size: 50px;
+ }
+
+ .port{
+    color: white;
+ }
+
+ #footer a{
+    color: #00FFFF;
+ }
+
+ /* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+   .formations-produit{
+      width: 100%;
+   }
+
+   #skills{
+      display: block;
+   }
+
+   #skills-presentation{
+      padding-bottom: 20px;
+   }
+
+   .pictures {
+      width: 100%;
+      /* background-color: red; */
+   }
+
+   .pictures img {
+      /* visibility: hidden; */
+   }
+
+   #presentation{
+      padding-left: 30px;
+      padding-top: 50px;
+   }
+
+   #presentation-name{
+      font-size: 50px;
+   }
+
+   header{
+      display: block;
+   }
+
+   .menu{
+      flex :1
+   }
+
+   .menu li{
+      display: block;
+   }
+
+   #about img{
+      width: 120px;
+   }
+
+   #commentaire{
+      font-size: 15px;
+   }
+
+   #cv{
+      margin-top: 5px;
+      padding-top: 5px;
+      padding-bottom: 0px;
+   }
+}
